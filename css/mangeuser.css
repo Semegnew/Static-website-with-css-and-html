@@ -1,0 +1,268 @@
+.container {
+    max-width: 7000px;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(44, 39, 39, 0.726);
+    margin-top: -3%;
+}
+
+.content form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 0 12px 0;
+}
+
+form .user-details .input-box {
+    margin-bottom: 8px;
+    margin-right: 4px;
+    width: calc(100% / 2 - 40px);
+}
+
+form .input-box span.details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+form .input-box span.details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.ttt h1 {
+    font-size: 2rem;
+    font-weight: 250;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    text-align: center;
+}
+
+.ttt h1 span {
+    color: crimson;
+}
+
+.user-details .input-box input {
+    height: 45px;
+    width: 80%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid rgb(27, 26, 26);
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+    border-color: #291d2e;
+}
+
+form .gender-details .gender-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+input[type="file"] {
+    background: rgb(116, 119, 119);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    height: 45px;
+}
+
+form input[type="radio"] {
+    display: inline-flex;
+    margin: 1rem;
+}
+
+.select {
+    color: black;
+    border: 1px solid none;
+    border-radius: 5px;
+    width: 250px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.select:focus,
+.select:hover {
+    outline: none;
+    border-radius: 1px;
+}
+
+.select option {
+    background: white;
+}
+
+form .button {
+    height: 45px;
+    margin: 35px 0
+}
+
+form .button input {
+    height: 100%;
+    width: 10%;
+    border-radius: 5px;
+    margin-left: 20%;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+form .button select {
+    height: 100%;
+    width: 10%;
+    border-radius: 5px;
+    margin-left: 20%;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.ad {
+    background-color: #05944c;
+}
+
+.cl {
+    background-color: #c71c10d3;
+}
+
+.ad:hover {
+    background: #034d28;
+}
+
+.cl:hover {
+    background-color: #7c0800c9;
+}
+
+.content-table {
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 28px rgba(0, 0, 0, 0.16);
+    border-collapse: collapse;
+    margin: 25px 0;
+    width: 80%;
+    font-size: 0.8em;
+    margin-bottom: 10rem;
+    margin-left: 2rem;
+}
+
+.content-table thead tr {
+    background-color: #404040;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #beb8b8;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #404040;
+}
+
+input[type="button"] {
+    border-radius: 6px;
+    padding: 7px 4px;
+    text-align: center;
+    color: white;
+    width: 70px;
+}
+
+tbody tr td .up {
+    background-color: rgb(63, 201, 136);
+}
+
+tbody tr td .de {
+    background-color: red;
+}
+
+tbody tr td .de:hover {
+    background-color: #e91515d8;
+}
+
+tbody tr td .up:hover {
+    background: #034d28;
+}
+
+@media(max-width: 584px) {
+    .container {
+        max-width: 100%;
+    }
+    form .user-details .input-box {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    form .category {
+        width: 100%;
+    }
+    .content form .user-details {
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+    .user-details::-webkit-scrollbar {
+        width: 5px;
+    }
+}
+
+@media(max-width: 500px) {
+    .container .content .category {
+        flex-direction: column;
+    }
+    .content-table {
+        margin-left: 20%;
+    }
+    .content-table thead {
+        display: none;
+    }
+    .content-table tbody,
+    .content-table tr,
+    .content-table td {
+        display: block;
+        width: 100%;
+    }
+    .content-table tr {
+        margin-bottom: 15px;
+    }
+    content-table td {
+        text-align: right;
+        padding-left: 50%;
+        text-align: right;
+        position: relative;
+    }
+    content-table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50;
+        padding-left: 15px;
+        text-align: left;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,85 @@
+
+ /*navigation gold color */
+ header{
+	padding-top:50px;
+	 width: 80%;
+	margin: auto;
+	overflow: hidden;
+ }
+ 
+nav{
+	float: right;
+ }
+ 
+ li{
+	 display:inline;
+	 
+ }
+ li a{
+	 color: gold;
+	 text-decoration: none;
+	 font-family:Felix Titling;
+	font-weight:bold;
+ }
+  
+ nav ul li a:hover{
+ color:rgba(78, 24, 204, 0.904);
+ }
+ nav ul li a:active{
+ color:#fff;
+ }
+ 
+ 
+
+#input{
+	margin:8px 0 0 75px;
+	text-align:center;
+	width:70%;
+	line-height:1.7em;
+	color: white
+	}
+#input1{
+	width:70%;
+	margin:8px 0 0 75px;
+	text-align:center;
+	height:100px;
+	color:white}
+.button{
+	width:20%;
+	height:10%;
+	background: pink;
+	color: Black;
+	margin: 10px 3px 0 0;}
+.info{
+font: 200%;
+width:400px;
+height:555px;
+text-align: Center;
+margin: 6px 60px 0 60px;
+padding: 0 80px 0 10px;
+border-radius:20px;
+background-color:black;
+opacity:0.8; 
+}
+.info input[type="text"], input[type="email"]
+{
+	border-bottom: 1px solid white;
+	background: transparent;
+	outline:none;
+	height:40px;
+}
+.pic{
+	 width:80px; 
+	 height:80px;
+	 border-radius:50%;
+	 top:100%;
+	 left:calc(50% - 50px);
+}
+
+.info form input{
+width:250px;
+display:block;
+border:2px solid grey;
+border-radius:20px;
+outline:none;
+}

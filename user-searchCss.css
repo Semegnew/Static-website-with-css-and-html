@@ -1,0 +1,32 @@
+ 
+
+.search-box{
+ 	padding-top:10%;
+	position:all;
+	transform: translate(-50%, -50%);
+}
+
+.btn.btn-search{
+	border-radius: 0;
+	height: 50px;
+	background: #03a3b2;
+	color: #fff;
+}
+
+.search-input:focus{
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.bg{
+	background: #fff;
+	background-image: url(bg.jpg);
+	height: 100%;
+ 	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+
